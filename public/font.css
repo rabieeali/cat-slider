@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "vazir";
+    src: url(./Vazir-Regular.ttf);
+}
+@font-face {
+    font-family: "lato";
+    src: url(./Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "KumbhSans";
+    src: url(./KumbhSans.ttf);
+}
+
+*{
+    /* font-family: "lato"; */
+    /* font-family: "KumbhSans"; */
+    font-family: "vazir";
+}

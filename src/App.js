@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import HelloAPS from "./components/HelloAPS";
+import { Logo } from "./components/Logo";
+import CaughtPokemon from "./components/CaughtPokemon";
+import BestPokemon from "./components/BestPokemon";
+import Power from "./components/Power";
+import TryCode from "./components/TryCode";
 
 function App() {
+  const familyName = "jasem zadeh";
+  const logWhenClicked = () => {
+    console.log("I love pizza 🍕");
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Logo logWhenClicked={logWhenClicked} familyName={familyName} id={5} age={15} />
+      <BestPokemon />
+      <CaughtPokemon />
+      <HelloAPS />
+      <Power number={2} />
+      <TryCode />
     </div>
   );
 }

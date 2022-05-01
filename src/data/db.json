@@ -1,0 +1,16 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "src": "https://content.api.news/v3/images/bin/4a0376384cfc2449bf021714eb6e0108"
+    },
+    {
+      "id": 2,
+      "src": "https://cdn1.tedsby.com/tb/large/storage/1/9/4/194912/stuffed-animal-teddy-bear-cute-cats-collection.jpg"
+    },
+    {
+      "id": 3,
+      "src": "https://i.pinimg.com/736x/8f/81/9f/8f819f5c0cff58b5d0cf55d57e41eec1.jpg"
+    }
+  ]
+}
